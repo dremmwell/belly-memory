@@ -1,0 +1,11 @@
+html{
+    color: white;
+    background: #000000;
+    background: linear-gradient(180deg, #000000, #1E1D1E);
+    margin: 0;
+    height: 100vh;
+}
+
+/* div{
+    outline: red solid 2px;
+} */
