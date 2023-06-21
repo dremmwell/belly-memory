@@ -1,12 +1,17 @@
+import { useState } from 'react';
 import header from './Header.module.css'
 
 function Header() {
+
+    let [score, setScore] = useState(0);
+    let [highScore, setHighScore] = useState(0);
+
     return(
         <div className={header.container}>     
             <h1>Belly Memory</h1>
             <div className={header.scoreBoard}>
-                <p>Score : </p>
-                <p>High Score : </p>
+                <p>Score : {score}</p>
+                <p>High Score : {highScore}</p>
             </div>
         </div>
     )

@@ -4,10 +4,9 @@ import card from './Card.module.css'
 function Card(props) {
 
     const {
-        card: {name, src, background} 
+        card: {name, src, background},
+        handleNewRound, 
     } = props;
-
-    const [count, setCount] = useState(0);
 
     const borderStyle = '1px solid' + background;
 
@@ -19,7 +18,7 @@ function Card(props) {
     return(
         <div className={card.card} 
             onClick={() => {
-                setCount(count + 1);
+                handleNewRound(name);
             }} 
             style = {cardStyle}
         >    

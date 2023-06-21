@@ -19,11 +19,11 @@ import quatreQuarts from './img/quatre-quart.jpg'
 import tarteCitron from './img/tarte-citron.jpg'
 import tarteTatin from './img/tarte-tatin.jpg'
 import tarteFramboise from './img/tartelette-framboise.jpg'
-
-
-
+import { useState } from 'react'
 
 function GameBoard() {
+
+    let [previousClickedCard , setClickedCard] = useState('');
 
     const cardData = [
         {
@@ -135,10 +135,19 @@ function GameBoard() {
       
         return array;
     }
-    
+
+    function handleNewRound(clickedCardKey){
+        handleLogic(clickedCardKey);
+    }
+
+    function handleLogic(clickedCardKey){
+        console.log(previousClickedCard,clickedCardKey)
+        setClickedCard(previousClickedCard = clickedCardKey)
+    }
+
     return (
      <div className={gameboard.board}>
-        {shuffle(cardData).map(card => <Card card = {card} key = {card.name} />)}
+        {shuffle(cardData).map(card => <Card card = {card} key={card.name} handleNewRound = {handleNewRound} />)}
      </div>
     );
 }
