@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/belly-memory/static/css/main.294d29cb.css",
+    "main.js": "/belly-memory/static/js/main.3f68d18d.js",
+    "static/js/787.69b12325.chunk.js": "/belly-memory/static/js/787.69b12325.chunk.js",
+    "static/media/galette-des-rois.jpg": "/belly-memory/static/media/galette-des-rois.a1d5e270a2e644fdb243.jpg",
+    "static/media/buche-de-noel.jpg": "/belly-memory/static/media/buche-de-noel.5fb0bd1e0fc119f16779.jpg",
+    "static/media/tartelette-framboise.jpg": "/belly-memory/static/media/tartelette-framboise.ee3ac479c4ece6300737.jpg",
+    "static/media/éclair-au-chocolat.jpg": "/belly-memory/static/media/éclair-au-chocolat.376648b047569a951766.jpg",
+    "static/media/flan.jpg": "/belly-memory/static/media/flan.3f45a6df69c72133a30c.jpg",
+    "static/media/crepes.jpg": "/belly-memory/static/media/crepes.9a12a226895e58ae1335.jpg",
+    "static/media/creme-brulee.jpg": "/belly-memory/static/media/creme-brulee.f1f042989de309bd4d3f.jpg",
+    "static/media/mousse-au-chocolat.jpg": "/belly-memory/static/media/mousse-au-chocolat.eca3149b5e38cc83177b.jpg",
+    "static/media/cannele.jpg": "/belly-memory/static/media/cannele.5989b51a34fb4869a15c.jpg",
+    "static/media/chausson-aux-pommes.jpg": "/belly-memory/static/media/chausson-aux-pommes.40e177c053bbe60433e1.jpg",
+    "static/media/paris-brest.jpg": "/belly-memory/static/media/paris-brest.9ba7c6765df76a5dc4b4.jpg",
+    "static/media/tarte-tatin.jpg": "/belly-memory/static/media/tarte-tatin.4b448a05ea4e6025b998.jpg",
+    "static/media/quatre-quart.jpg": "/belly-memory/static/media/quatre-quart.ef15541904ab9803201b.jpg",
+    "static/media/fraisier.jpg": "/belly-memory/static/media/fraisier.cf63f97465cc110bd3a8.jpg",
+    "static/media/ile-flottante.jpg": "/belly-memory/static/media/ile-flottante.fac40fce0417da6c770a.jpg",
+    "static/media/tarte-citron.jpg": "/belly-memory/static/media/tarte-citron.085e148b4a14cd617561.jpg",
+    "static/media/kouign-amann.jpg": "/belly-memory/static/media/kouign-amann.6f62288fe1fbeb2dca5e.jpg",
+    "static/media/far-breton.jpg": "/belly-memory/static/media/far-breton.ab940f4f9000eb2204b5.jpg",
+    "index.html": "/belly-memory/index.html",
+    "main.294d29cb.css.map": "/belly-memory/static/css/main.294d29cb.css.map",
+    "main.3f68d18d.js.map": "/belly-memory/static/js/main.3f68d18d.js.map",
+    "787.69b12325.chunk.js.map": "/belly-memory/static/js/787.69b12325.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.294d29cb.css",
+    "static/js/main.3f68d18d.js"
+  ]
+}
