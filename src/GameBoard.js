@@ -21,7 +21,11 @@ import tarteTatin from './img/tarte-tatin.jpg'
 import tarteFramboise from './img/tartelette-framboise.jpg'
 import { useState } from 'react'
 
-function GameBoard() {
+function GameBoard(props) {
+
+    const{
+        handleResult
+    } = props;
 
     let [previousClickedCards ,setClickedCards] = useState([]);
 
@@ -136,8 +140,6 @@ function GameBoard() {
         return array;
     }
 
-    console.log(previousClickedCards)
-
     function handleNewRound(clickedCardKey){
         handleLogic(clickedCardKey);
     }
@@ -152,7 +154,8 @@ function GameBoard() {
         else{
             setClickedCards(previousClickedCards = []);
         }   
-        return result;
+
+        handleResult(result);
     }
 
     return (

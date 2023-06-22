@@ -3,8 +3,9 @@ import header from './Header.module.css'
 
 function Header(props) {
 
-    let [score, setScore] = useState(0);
-    let [highScore, setHighScore] = useState(0);
+    const{
+        score, highScore
+    }= props
 
     return(
         <div className={header.container}>     
