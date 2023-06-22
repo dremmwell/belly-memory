@@ -23,7 +23,7 @@ import { useState } from 'react'
 
 function GameBoard() {
 
-    let [previousClickedCard , setClickedCard] = useState('');
+    let [previousClickedCards ,setClickedCards] = useState([]);
 
     const cardData = [
         {
@@ -136,13 +136,23 @@ function GameBoard() {
         return array;
     }
 
+    console.log(previousClickedCards)
+
     function handleNewRound(clickedCardKey){
         handleLogic(clickedCardKey);
     }
 
     function handleLogic(clickedCardKey){
-        console.log(previousClickedCard,clickedCardKey)
-        setClickedCard(previousClickedCard = clickedCardKey)
+
+        let result = previousClickedCards.indexOf(clickedCardKey);
+
+        if(result === -1){
+            setClickedCards([...previousClickedCards,clickedCardKey]);
+        }
+        else{
+            setClickedCards(previousClickedCards = []);
+        }   
+        return result;
     }
 
     return (

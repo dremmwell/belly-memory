@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import header from './Header.module.css'
 
-function Header() {
+function Header(props) {
 
     let [score, setScore] = useState(0);
     let [highScore, setHighScore] = useState(0);
